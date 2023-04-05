@@ -1,5 +1,7 @@
 .containerNavbar {
   width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 .navbar {
@@ -14,6 +16,8 @@ li {
   background-color: rgba(25, 0, 255, 0.164);
 }
 
-#cart {
-  background-color: rgb(255, 0, 98);
+.cart {
+  border: solid purple 10px;
+  position: sticky;
+  padding: 30px;
 }

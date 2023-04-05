@@ -1,3 +1,7 @@
 export default function CartWidget() {
-  return <div>7</div>;
+  return (
+    <div>
+      <img src=".//images/icon-cart.png" alt="" />
+    </div>
+  );
 }

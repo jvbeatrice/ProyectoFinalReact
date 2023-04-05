@@ -14,10 +14,10 @@ export const Navbar = () => {
         <li>Snacks</li>
         <li>Dulces</li>
         <li>Conservas</li>
-        <li id="cart">
-          <CartWidget />
-        </li>
       </ul>
+      <div className={style.cart}>
+        <CartWidget />
+      </div>
     </div>
   );
 };
