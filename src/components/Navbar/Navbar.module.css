@@ -1,0 +1,19 @@
+.containerNavbar {
+  width: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  padding: 20px;
+  border: solid 2px;
+  background-color: rgba(25, 0, 255, 0.164);
+}
+
+#cart {
+  background-color: rgb(255, 0, 98);
+}
