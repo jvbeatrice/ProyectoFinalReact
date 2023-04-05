@@ -7,6 +7,7 @@
 .navbar {
   display: flex;
   justify-content: space-around;
+  padding: 20px;
 }
 
 li {
@@ -17,7 +18,7 @@ li {
 }
 
 .cart {
-  border: solid purple 10px;
+  border: solid purple 6px;
   position: sticky;
   padding: 30px;
 }

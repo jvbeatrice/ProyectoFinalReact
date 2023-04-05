@@ -4,7 +4,7 @@ import { Navbar } from "./components/Navbar/Navbar";
 import { ItemListContainer } from "./components/ItemsListContainer/ItemListContainer";
 
 function App() {
-  let name = prompt("Ingrese su nombre");
+  let name = "Don Justo Bolsa";
   return (
     <div className="App">
       <Navbar />
