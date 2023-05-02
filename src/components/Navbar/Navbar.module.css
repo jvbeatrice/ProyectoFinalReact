@@ -1,0 +1,37 @@
+.containerNavbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar {
+  justify-content: space-around;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  width: 70%;
+}
+
+.cart {
+  border: solid purple 3px;
+  padding: 3px;
+  width: 15%;
+}
+
+.active {
+  color: rgba(206, 15, 231, 0.685);
+  list-style: none;
+  padding: 15px;
+  border: solid 3px;
+  background-color: rgba(25, 0, 255, 0.164);
+}
+
+.noActive {
+  color: rgba(66, 4, 75, 0.979);
+  list-style: none;
+  padding: 15px;
+  border: solid 3px;
+  background-color: rgba(25, 0, 255, 0.164);
+}
