@@ -1,12 +1,28 @@
 import { RiShoppingCartLine } from "react-icons/ri";
 import style from "./CartWidget.module.css";
+import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { CartContext } from "../../context/CartContext";
 
-export default function CartWidget() {
-  let itemsCart = 7;
+const CartWidget = () => {
+  const { getTotalQuantity } = useContext(CartContext);
+
+  let total = getTotalQuantity();
+
   return (
-    <div className={style.cartWidgetContainer}>
-      <RiShoppingCartLine size={40} />
-      <h4>{itemsCart}</h4>
-    </div>
+    <Link style={{ textdecoration: "none" }} to="/cart">
+      <div className="style.cartWidgetContainer">
+        <RiShoppingCartLine
+          style={{
+            fontSize: "3rem",
+          }}
+        />
+        <div className="bubble-counter">
+          <span>{total}</span>
+        </div>
+      </div>
+    </Link>
   );
-}
+};
+
+export default CartWidget;

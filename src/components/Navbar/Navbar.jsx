@@ -97,7 +97,7 @@ export const Navbar = () => {
             Infusiones
           </NavLink>
         </ul>
-        <CartWidget />
+        <CartWidget className={style.cart} />
       </div>
       <Outlet />
     </div>
